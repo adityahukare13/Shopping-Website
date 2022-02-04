@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:"Century Gothic", Arial, Helvetica, sans-serif;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+
+.row {margin: 0 -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height:600px;
+}
+.nbtn {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.nbtn:hover{
+    background-color: #4caf50;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>🅲🅾🅻🅻🅴🅲🆃🅸🅾🅽🆂</h1>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="product1.jpg">
+      <p style="color:red"><b>Rs.4,400.00</b></p>
+      <p>Smart watch</p>
+      <p>Brand:	Amazfit</p>
+      <p>Screen Size:	1.28 Inches</p>
+      <p>Batteries:	1 Lithium Polymer batteries required. (included)</p>
+      <p>Operating System:	IOS & Android</p>
+      <p>10 SPORTS MODES</p>
+      <button class="nbtn" type="button" name="BUY NOW">BUY NOW</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="product2.jpg">
+      <p style="color:red"><b>Rs.20,999.00</b></p>
+      <p>Realme x</p>
+      <p>OS: Android 11</p>
+      <p>Batteries:	1 Lithium Polymer batteries required.</p>
+      <p>Display technology:	Super AMOLED</p>
+      <p>Camera features:	48MP+5MP</p>
+      <p>Processor:Qualcomm Snapdragon 710</p>
+      <button class="nbtn" type="button" name="BUY NOW">BUY NOW</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="product3.jpg"  style="height:250px;width:250px;">
+      <p style="color:red"><b>Rs.3,500.00</b></p>
+      <p>SKYVIK SIGNI PRO 2 </p>
+       <p>Brand :SKYVIK</p> 
+        <p>Model Number :SIGNI PRO 2 IN 1</p> 
+        <p>Lens Type :Wide and Macro</p>
+         <p>Compatible With :IPHONE X ,ONE PLUS 7 8 & oTHERS, SAMSUNG NOTE 9, REDMI, OPPO, VIVO</p>
+         <button class="nbtn" type="button" name="BUY NOW">BUY NOW</button>
+       </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="product4.jpg" style="height:250px;width:250px;">
+      <p style="color:red"><b>Rs.80,000.00</b></p>
+      <p>Canon EOS 7D Mark II Digital SLR Camera</p>
+      <p>20.2 Megapixel CMOS (APS-C) sensor and ISO 100-16000</p>
+      <p>Model :4549292001747</p>
+      <p>Display Technology	:LCD</p>
+        <p>Image Stabilization:	Yes</p>
+     <p>Video Capture Resolution:	Full HD (1920x1080)</p>
+     <button class="nbtn" type="button" name="BUY NOW">BUY NOW</button>
+       </div>
+  </div>
+</div>
+
+</body>
+</html>
